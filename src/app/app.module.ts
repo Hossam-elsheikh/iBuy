@@ -12,6 +12,7 @@ import { FormsModule } from '@angular/forms';
 import { ProductComponent } from './Components/product/product.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NewProductComponent } from './Components/new-product/new-product.component';
+import { ContactUsComponent } from './Components/contact-us/contact-us.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { NewProductComponent } from './Components/new-product/new-product.compon
     NotFoundComponent,
     ProductComponent,
     NewProductComponent,
+    ContactUsComponent,
   ],
   imports: [
     BrowserModule,
