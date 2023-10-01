@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Smith",
+      "email": "john@gmail.com"
+    },
+    {
+      "firstName": "hossam",
+      "lastName": "moh",
+      "email": "hossam@gmail.com",
+      "id": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "title": "kindle"
+    },
+    {
+      "id": 2,
+      "title": "ear Sets"
+    },
+    {
+      "id": 3,
+      "title": "devices"
+    },
+    {
+      "id": 4,
+      "title": "gears"
+    },
+    {
+      "id": 5,
+      "title": "mobile"
+    },
+    {
+      "id": 6,
+      "title": "laptop"
+    }
+  ],
+  "products": [
+    {
+      "id": 2,
+      "name": "Kindle Paperwhite (16GB)",
+      "price": 400,
+      "quantity": 1,
+      "categoryID": 1,
+      "Material": "Wood",
+      "PrdimgURL": "https://m.media-amazon.com/images/I/515Lv6AATTL._AC_SX679_.jpg",
+      "description": "Kindle Paperwhite – Now with a 6.8” display and thinner borders, adjustable warm light, up to 10 weeks of battery life, and 20% faster page turns.Purpose-built for reading – With a flush-front design and 300 ppi glare-free display that reads like real paper, even in bright sunlight.More books in more places – Store thousands of titles, then take them all with you. A single charge via USB-C last weeks, not hours.Easy on the eyes – Now with adjustable warm light to shift screen shade from white to amber.Waterproof (IPX8), so you’re free to read and relax at the beach, by the pool or in the bath. Your Kindle has been tested to withstand accidental immersion.Browse over 1 million eBooks in the Kindle Store on Amazon US, including thousands of Arabic titles."
+    },
+    {
+      "id": 5,
+      "name": "Echo Dot (4th Gen)",
+      "price": 150,
+      "quantity": 1,
+      "PrdimgURL": "https://m.media-amazon.com/images/I/81OeuPUyBBL._AC_UF894,1000_QL80_.jpg",
+      "categoryID": 2,
+      "Material": "Metal",
+      "description": "Meet Echo Dot with clock - Our most popular smart speaker with Alexa. The sleek, compact design delivers crisp vocals and balanced bass for full sound. Perfect for your nightstand - See the time, alarms, and timers on the LED display. Tap the top to snooze an alarm. Ready to help - Ask Alexa to tell a joke, play music, answer questions, play the news, check the weather, set alarms, and more. Control your smart home - Use your voice to turn on lights, adjust thermostats, and lock doors with compatible devices. Start Routines with your motion - Turn on compatible lights, play your Flash Briefing, or turn on the coffee maker when you walk into the room. Connect with others hands-free - Call friends and family who have the Alexa app or an Echo device. Instantly drop in on other rooms or announce to the whole house that dinner's ready. Designed to protect your privacy - Amazon is not in the business of selling your personal information to others. Built with multiple layers of privacy controls including a mic off button."
+    },
+    {
+      "id": 9,
+      "name": "Vostro 3515 (AMD Ryzen(TM) 7 3700U",
+      "price": 1000,
+      "quantity": 1,
+      "PrdimgURL": "https://m.media-amazon.com/images/I/61TRtqRkuDL._AC_SL1500_.jpg",
+      "categoryID": 6,
+      "Material": "Upholstered Seating",
+      "description": "Vostro 3515 ( AMD Ryzen(TM) 7 3700U- Ram 8GB -Hard 512 GB SSD -VAG Integrated AMD Radeon RX Vega 10 - Display15.6 FHD - OS Ubuntu -Color Carbon Black)"
+    }
+  ]
+}

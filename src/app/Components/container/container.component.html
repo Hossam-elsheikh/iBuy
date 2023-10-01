@@ -1,0 +1,26 @@
+<div class="container">
+ <input type="search" placeholder="search" [(ngModel)]="listFilter">
+  <select>
+    <option  *ngFor="let category of categories">{{category.title}}</option>
+  </select>
+  <app-products [productsFilter]="listFilter" (addPrdEvent)="addToCart($event)"></app-products>
+</div>
+
+<div class="cart">
+  <div style="display: flex; justify-content: space-around;">
+    <div style="width:200px"><h4>product name</h4></div>
+    <div style="width:200px"><h4>price</h4></div>
+    <div style="width:200px"><h4>quantity</h4></div>
+  </div>
+  <div style="display: flex; justify-content: space-around;" *ngFor="let product of cart">
+    <div style="width:200px"><h4>{{product.name}}</h4></div>
+    <div style="width:200px"><h4>{{product.price}}</h4></div>
+    <div style="width:200px"><h4>{{product.quantity}}</h4></div>
+  </div>
+  <div style="display: flex; justify-content: space-around;">
+
+    <div style="width:200px"><h4>Total Price</h4></div>
+    <div style="width:200px"><h4>{{total}}</h4></div>
+    <div style="width:200px"><h4>---------</h4></div>
+  </div>
+</div>

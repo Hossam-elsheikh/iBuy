@@ -1,0 +1,30 @@
+.cont{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 2rem;
+    max-width: 100vw;
+
+}
+.product {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    box-shadow: 1px 1px 5px 0px gray;
+    border-radius: 10px;
+    max-width: 220px;
+    justify-content: space-between;
+}
+
+.product img {
+    max-width: 200px;
+    cursor: pointer;
+}
+
+button{
+    border: none;
+    padding: .4rem .5rem;
+    background-color: rgb(87, 50, 50);
+    color: white;
+    cursor: pointer;
+}

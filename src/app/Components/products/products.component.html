@@ -1,0 +1,14 @@
+<div class="cont">
+  
+  <div class="product" *ngFor="let product of filteredProducts">
+    <a (click)="navigateToProduct(product.id)" ><img [src]='product.PrdimgURL'></a>
+    <h4>{{product.name}}</h4>
+    <div style="display: flex; justify-content: space-between;align-items: center;">
+      <h5>{{product.price}}</h5>
+      <button (click)="addToCart(product)">Add to Cart</button>
+    </div>
+    
+    <button (click)="navigateToEditProduct(product.id)">edit</button>
+    <button (click)="deleteProduct(product.id)">delete</button></div>
+  
+</div>

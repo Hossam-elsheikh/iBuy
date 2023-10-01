@@ -1,0 +1,15 @@
+<div>
+<h1>IBuy</h1>
+  <nav>
+    <ul>
+      <li><a routerLink="/home" routerLinkActive="active">Home</a></li>
+      <li><a routerLink="/products" routerLinkActive="active">Products</a></li>
+      <li><a routerLink="/admin/insertproduct" routerLinkActive="active">add product</a></li>
+      <li><a routerLink="/about" routerLinkActive="active">about us</a></li>
+      <li *ngIf="userloggedin"><a routerLink="/user/profile" routerLinkActive="active" >profile</a></li>
+      <li *ngIf="!userloggedin"><a routerLink="/user/login" routerLinkActive="active" (click)="loginFun()" >login</a></li>
+      <li *ngIf="!userloggedin"><a routerLink="/user/signup" routerLinkActive="active"  >signup</a></li>
+      <li  *ngIf="userloggedin"><a routerLink="/products" routerLinkActive="active" (click)="logoutFun()">logout</a></li>
+    </ul>
+  </nav>
+</div>
